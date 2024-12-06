@@ -1,0 +1,62 @@
+:root {
+    --bgcolor: #1FBB5D;
+    --fontcolor: beige;
+    
+
+}
+
+body {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    font: Arial;
+    font-size: 20px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    font-family: roboto;
+}
+
+.header {
+    background-color: var(--bgcolor);
+    align-self: center;
+    justify-self: end;
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-weight: 700px;
+    color: var(--fontcolor);
+    
+}
+
+.main {
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    align-content: space-around;
+}
+
+    .week,
+    .next,
+    .upcoming {
+        justify-self: center;
+    }
+
+    /* .next {
+        justify-self: center;
+    }
+
+    .upcoming {
+        justify-self: center;
+    } */
+
+.footer {
+    text-align: center;
+    justify-self: end;
+    width: 100%;
+    background-color: var(--bgcolor);
+    padding: 15px;
+    color: var(--fontcolor);
+}
